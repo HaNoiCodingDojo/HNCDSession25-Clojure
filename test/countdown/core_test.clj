@@ -10,3 +10,6 @@
 
 (deftest test-1-returns-array-with-1-0
   (is (= [1 0] (countdown 1))))
+
+(deftest test-2-returns-array-with-2-1-0
+  (is (= [2 1 0] (countdown 2))))
